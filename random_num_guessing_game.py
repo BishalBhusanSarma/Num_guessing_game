@@ -30,10 +30,10 @@ while True:
         print("\n**Guess a bigger one** ")
 
 
-    # Asking the player if he wants to restart the game after wasting all the attempts.
+    # Asking the player if he wants to resume the game after wasting all the attempts or Quit.
     if count == 5:
         print("\nYou are out of attempts")
-        yesorno = input("\nDo you want to restart? Y/N : ")
+        yesorno = input("\nDo you want to resume? Y/N : ")
         
         if yesorno == "Y" or yesorno == "y":
             count = 0
@@ -41,7 +41,7 @@ while True:
             break       # to exit from this 'while' loop
 
         else:
-            print("\nInvalid Parameters")
+            print("\nInvalid input")
             break       # to exit from this 'while' loop
 
 
