@@ -30,7 +30,7 @@ while True:
         print("\n**Guess a bigger one** ")
 
 
-    # asking the player if he wants to restart the game after wasting all the attempts.
+    # Asking the player if he wants to restart the game after wasting all the attempts.
     if count == 5:
         print("\nYou are out of attempts")
         yesorno = input("\nDo you want to restart? Y/N : ")
